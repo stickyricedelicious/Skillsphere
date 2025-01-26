@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkillSphere</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background-color: #1e3a8a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #14274e;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px;
+      background: linear-gradient(rgba(30, 58, 138, 0.8), rgba(30, 58, 138, 0.8)), 
+        url('https://source.unsplash.com/1600x900/?technology,future') no-repeat center center/cover;
+      color: white;
+    }
+    .hero h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+    .hero button {
+      background-color: #34d399;
+      color: white;
+      padding: 10px 20px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .courses-section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .courses-section h2 {
+      margin-bottom: 20px;
+      font-size: 2em;
+    }
+    .courses {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .course-card {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      width: 300px;
+      padding: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
+    .course-card h3 {
+      color: #1e3a8a;
+    }
+    .course-card p {
+      margin: 10px 0;
+    }
+    .course-card button {
+      background-color: #34d399;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #14274e;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SkillSphere</h1>
+    <p>Shaping Tomorrow, One Skill at a Time</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#courses">Courses</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h1>Welcome to SkillSphere</h1>
+    <p>Your platform for 21st-century skills and knowledge</p>
+    <button>Explore Courses</button>
+  </div>
+
+  <section class="courses-section" id="courses">
+    <h2>Featured Courses</h2>
+    <div class="courses">
+      <!-- Course 1 -->
+      <div class="course-card">
+        <h3>Ethical AI and Society</h3>
+        <p>Understand the role of AI in modern society and learn to navigate its ethical challenges.</p>
+        <ul>
+          <li>Introduction to AI ethics</li>
+          <li>Real-world case studies</li>
+          <li>AI and global governance</li>
+        </ul>
+        <button>Learn More</button>
+      </div>
+
+      <!-- Course 2 -->
+      <div class="course-card">
+        <h3>Sustainability in the Digital Age</h3>
+        <p>Discover how technology and sustainability intersect to address global challenges.</p>
+        <ul>
+          <li>Sustainable product design</li>
+          <li>Environmental impact of technology</li>
+          <li>Green business strategies</li>
+        </ul>
+        <button>Learn More</button>
+      </div>
+
+      <!-- Course 3 -->
+      <div class="course-card">
+        <h3>Future of Work: Digital Skills</h3>
+        <p>Master key digital skills to thrive in a tech-driven workforce.</p>
+        <ul>
+          <li>Data analysis basics</li>
+          <li>Project management tools</li>
+          <li>Remote collaboration strategies</li>
+        </ul>
+        <button>Learn More</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SkillSphere | All Rights Reserved</p>
+    <p>Contact us at: support@skillsphere.com</p>
+  </footer>
+</body>
+</html>
