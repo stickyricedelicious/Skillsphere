@@ -50,11 +50,11 @@
       border-radius: 5px;
       cursor: pointer;
     }
-    .courses-section {
+    .section {
       padding: 40px 20px;
       text-align: center;
     }
-    .courses-section h2 {
+    .section h2 {
       margin-bottom: 20px;
       font-size: 2em;
     }
@@ -112,10 +112,10 @@
   <div class="hero">
     <h1>Welcome to SkillSphere</h1>
     <p>Your platform for 21st-century skills and knowledge</p>
-    <button>Explore Courses</button>
+    <button onclick="document.getElementById('courses').scrollIntoView({ behavior: 'smooth' });">Explore Courses</button>
   </div>
 
-  <section class="courses-section" id="courses">
+  <section class="section" id="courses">
     <h2>Featured Courses</h2>
     <div class="courses">
       <!-- Course 1 -->
@@ -127,7 +127,7 @@
           <li>Real-world case studies</li>
           <li>AI and global governance</li>
         </ul>
-        <button>Learn More</button>
+        <button onclick="location.href='ethical-ai.html'">Learn More</button>
       </div>
 
       <!-- Course 2 -->
@@ -139,7 +139,7 @@
           <li>Environmental impact of technology</li>
           <li>Green business strategies</li>
         </ul>
-        <button>Learn More</button>
+        <button onclick="location.href='sustainability-digital-age.html'">Learn More</button>
       </div>
 
       <!-- Course 3 -->
@@ -151,9 +151,27 @@
           <li>Project management tools</li>
           <li>Remote collaboration strategies</li>
         </ul>
-        <button>Learn More</button>
+        <button onclick="location.href='future-of-work.html'">Learn More</button>
       </div>
     </div>
+  </section>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>At SkillSphere, we believe in empowering individuals through cutting-edge education tailored for the demands of the modern world. Our mission is to provide accessible and engaging learning experiences that equip learners with the skills they need to succeed in an ever-changing landscape. Join us to explore knowledge that makes an impact.</p>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>We'd love to hear from you! Reach out to us with your questions, feedback, or collaboration inquiries.</p>
+    <p>Email: <a href="mailto:support@skillsphere.com">support@skillsphere.com</a></p>
+    <p>Phone: +1 800 555 1234</p>
+    <p>Follow us on social media:</p>
+    <p>
+      <a href="#" style="color: #1e3a8a;">Facebook</a> |
+      <a href="#" style="color: #1e3a8a;">Twitter</a> |
+      <a href="#" style="color: #1e3a8a;">LinkedIn</a>
+    </p>
   </section>
 
   <footer>
